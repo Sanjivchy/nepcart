@@ -1,4 +1,4 @@
-import { Footer } from "@/components/organism/footer"
+// import { Footer } from "@/components/organism/footer"
 import { Navbar } from "./Navbar"
 const Homelayout = ({ children }: { children: React.ReactNode }) => {
     return <div className="flex flex-col min-h-screen">
@@ -6,7 +6,7 @@ const Homelayout = ({ children }: { children: React.ReactNode }) => {
         <div className="flex-1">
             {children}
         </div>
-        <Footer/>
+        {/* <Footer/> */}
     </div>
 }
 export default Homelayout
